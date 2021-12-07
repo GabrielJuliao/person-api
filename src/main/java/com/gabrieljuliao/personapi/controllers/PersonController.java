@@ -20,7 +20,7 @@ public class PersonController {
         this.personService = personService;
     }
 
-    @PostMapping
+    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> setPerson(@RequestBody PersonDTO personDTO) {
         return new ResponseEntity<>(
                 personService.create(personDTO),
