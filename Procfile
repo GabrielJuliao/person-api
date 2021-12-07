@@ -1,1 +1,1 @@
-web: java -jar -Dspring.profiles.active=heroku build/libs/person-api-0.0.1-SNAPSHOT.jar
+web: java -jar -Dspring.profiles.active=heroku build/libs/prson-api-0.0.1-SNAPSHOT.jar
